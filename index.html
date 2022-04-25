@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzero</title>
+
+    <!-- Remix Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body id="body" class="flex">
+    <main>
+        <div class="container">
+            <div class="section-head">
+                <h1 class="quiz-title">Quizzero</h1>
+                <div class="quiz-score flex">
+                    <span id = "correct-score"></span>/<span id = "total-question"></span>
+                </div>
+            </div>
+            <div class="section-main">
+                <h2 id="question" class="quiz-prompt"><!-- Lorem ipsum, dolor si? <br> <span class="category">Geography</span> --></h2>
+                <ul class="quiz-options">
+                    <!-- <li>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                    <li>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                    <li>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                    <li>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li> -->
+                </ul>
+                <div id="result"></div>
+                <div id="score-result"></div>
+            </div>
+            <div class="section-end">
+                <button id="check-answer" class="btn">Check Answer</button>
+                <button id="play-again" class="btn">Play Again</button>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Script link -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
